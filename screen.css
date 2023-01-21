@@ -7,8 +7,8 @@
 
 html
 {
-    border-top: solid 10px black;
-    font-family: 'Lucida Sans';
+    border-top: solid 20px #424242;
+    font-family: 'Tahoma';
 }
 
 body
@@ -33,13 +33,14 @@ body
     margin-bottom: 20px;
     padding: 0;
     border-radius: 0;
+    color: #424242;
 }
 
 .header-icon
 {
     width: 25px;
     height: 25px;
-    background: black;
+    background: #424242;
     color: white;
     text-align: center;
     padding: 2px;
@@ -67,11 +68,11 @@ body
 
 .history
 {
-    background: rgb(226, 226, 226);
+    background: #e9eaec;
     height: 400px;
     margin-right: 20px;
     padding: 20px;
-    flex: 1;
+    width: 390px;
 }
 
 .history h2
@@ -81,8 +82,8 @@ body
 
 .example
 {
-    background: rgb(226, 226, 226);
-    flex: 1;
+    background: #e9eaec;
+    width: 390px;
     display: flex;
     flex-direction: column;
 }
@@ -99,10 +100,16 @@ body
 
 .example .bottom
 {
-    background: rgb(70, 70, 70);
+    background: #424242;
     color: white;
     height: 100%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 20px;
+}
+
+.bottom p
+{
+    font-family: courier;
+    font-size: 14px;
 }
